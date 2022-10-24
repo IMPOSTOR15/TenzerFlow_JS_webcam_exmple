@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TensorFlow.js exmaple</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>  
+  <body>
+    <h1>Определение нескольких объектов с использованием обученной нейросети на базе TensorFlow.js</h1>
+    
+    <header class="note"> 
+    </header>
+
+    <h2>Как использовать?</h2>
+    <p>Дождитесь щагрузки содержимого перед использованием (изображения станут непрозрачными)</p>
+    
+    <section id="demos" class="invisible">
+      <h2>Demo: класификация объектов на камере</h2>
+      <p>Попробуйте класификацию в реальном времени</p>
+      
+      <div id="liveView" class="videoView">
+        <button id="webcamButton">В ключить камеру</button>
+        <video id="webcam" autoplay></video>
+      </div>
+    </section>
+    
+    <footer class="note">
+      <p>
+        <em>Обратите внимание:</em> Это demo использует готовую модель нейросети (by tenzorFlow)
+      </p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <script src="/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+
+ body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    color: #3D3D3D;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #0015ff;
+    margin: 10px auto 0 auto;
+  }
+  
+  h2 {
+    clear: both;
+    margin: 10px auto 0 auto;
+  }
+  
+  em {
+    font-weight: bold;
+  }
+  p {
+    margin: 10px auto 0 auto;
+  }
+  
+  video {
+    clear: both;
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+  
+  section {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+    margin: 10px auto 0 auto;
+  }
+  
+  header, footer {
+    clear: both;
+  }
+  
+  .removed {
+    display: none;
+  }
+  
+  .invisible {
+    opacity: 0.2;
+  }
+  
+  .note {
+    font-style: italic;
+    font-size: 130%;
+    margin: 0 auto 0 auto;
+  }
+  
+  .videoView, .classifyOnClick {
+    position: relative;
+    float: left;
+    width: 70%;
+    margin: 2% 1%;
+    cursor: pointer;
+    margin: 10px auto 0 auto;
+  }
+  
+  .videoView p, .classifyOnClick p {
+    position: absolute;
+    padding: 5px;
+    background-color: rgba(0, 17, 255, 0.85);
+    color: #FFF;
+    border: 2px dashed rgba(255, 255, 255, 0.7);
+    z-index: 2;
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .highlighter {
+    background: rgba(89, 106, 255, 0.25);
+    border: 2px dashed #fff;
+    z-index: 1;
+    position: absolute;
+  }
+  
+  .classifyOnClick {
+    z-index: 0;
+  }
+  
+  .classifyOnClick img {
+    width: 100%;
+  }
