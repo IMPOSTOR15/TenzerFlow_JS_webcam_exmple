@@ -5,6 +5,8 @@
     color: #3D3D3D;
     display: flex;
     flex-direction: column;
+    background: rgb(87,123,213);
+    background: linear-gradient(93deg, rgba(87,123,213,1) 0%, rgba(170,194,255,1) 9%, rgba(170,194,255,1) 92%, rgba(87,123,213,1) 100%);
   }
   
   h1 {
@@ -52,7 +54,7 @@
   .note {
     font-style: italic;
     font-size: 130%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 90px auto;
   }
   
   .videoView, .classifyOnClick {
